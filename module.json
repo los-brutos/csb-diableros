@@ -1,0 +1,75 @@
+{
+  "id": "csb-diableros",
+  "title": "CSB - Diableros",
+  "description": "Implémentation du jeu Diableros avec Custom System Builder",
+  "version": "13.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "url": "https://github.com/los-brutos/csb-diableros/",
+  "manifest": "https://raw.githubusercontent.com/los-brutos/csb-diableros/refs/tags/13.0.0/module.json",
+  "download": "https://github.com/los-brutos/csb-diableros/releases/download/13.0.0/csb-diableros.zip",
+  "readme": "https://github.com/los-brutos/csb-diableros/blob/main/README.md",
+  "bugs": "https://github.com/los-brutos/csb-diableros/issues",
+  "authors": [
+    {
+      "name": "Los Brutos",
+      "discord": "losbrutos",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "styles": [
+    "styles/csb-diableros.css"
+  ],
+  "packs": [
+    {
+      "name": "actor-templates",
+      "label": "Diableros - Templates Acteurs",
+      "path": "packs/actor-templates",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "item-templates",
+      "label": "Diableros - Templates Objets",
+      "path": "packs/item-templates",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    },
+    {
+      "name": "specialites",
+      "label": "Diableros - Spécialités",
+      "path": "packs/specialites",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "custom-system-builder",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}

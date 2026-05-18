@@ -1,0 +1,124 @@
+{
+  "folder": null,
+  "name": "Sombra",
+  "type": "equippableItem",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "colSpan": 1,
+          "rowSpan": 1,
+          "cssClass": "",
+          "role": 0,
+          "editRole": 0,
+          "permission": 0,
+          "tooltip": "",
+          "visibilityFormula": "",
+          "editableFormula": "",
+          "escapeHTML": false,
+          "type": "panel",
+          "contents": [
+            {
+              "key": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "label",
+              "size": "full-size",
+              "icon": "",
+              "value": "Description",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "",
+              "altRollMessage": "",
+              "rollMessageToChat": true,
+              "altRollMessageToChat": true,
+              "style": "bold"
+            },
+            {
+              "key": "description",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "textArea",
+              "size": "full-size",
+              "label": "",
+              "defaultValue": "",
+              "style": "sheet"
+            }
+          ],
+          "flow": "vertical",
+          "align": "left",
+          "verticalAlign": "top",
+          "collapsible": false,
+          "defaultCollapsed": false,
+          "title": "",
+          "titleStyle": "default"
+        }
+      ],
+      "key": "custom_body",
+      "type": "panel"
+    },
+    "display": {
+      "width": 600,
+      "height": 350,
+      "fix_size": false,
+      "pp_width": 64,
+      "pp_height": 64
+    },
+    "header": {
+      "contents": [],
+      "key": "custom_header",
+      "type": "panel"
+    },
+    "hidden": [],
+    "modifiers": [],
+    "props": {
+      "description": "<p>Vous êtes un maître de la discrétion. </p><p>Votre talent pour vous glisser dans les ombres est légendaire, et vous êtes le cauchemar de vos ennemis. Votre spécialité ? Vous fondre dans les ténèbres et frapper au moment où votre adversaire s’y attend le moins.</p>"
+    },
+    "unique": true,
+    "templateSystemUniqueVersion": 3349233092,
+    "uniqueId": "ELfYdid1aOa9GMmF",
+    "template": "HZFtVHte7plL0N9A"
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "5.2.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "custom-system-builder",
+    "systemVersion": "5.2.1",
+    "createdTime": 1779055211473,
+    "modifiedTime": 1779055211473,
+    "lastModifiedBy": "rDBRbmnRaHT1kPmL"
+  },
+  "_id": "ELfYdid1aOa9GMmF",
+  "ownership": {
+    "default": 0,
+    "rDBRbmnRaHT1kPmL": 3
+  },
+  "sort": 0,
+  "_key": "!items!ELfYdid1aOa9GMmF"
+}

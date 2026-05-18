@@ -1,0 +1,113 @@
+/**
+ * Feuille de style du module
+ * Les classes préfixées par 'diableros-'
+ */
+
+/* FICHE */
+.diableros-cadre {
+  border:1px solid var(--color-border);
+  padding-right:5px;
+  padding-left:5px;
+  border-radius:5px;
+}
+
+.diableros-detruit {
+  color:red;
+}
+.diableros-detruit::before {
+  font:var(--fa-font-solid);
+  content:'\f5c8';
+  padding:0.5em;
+}
+
+.diableros-non-detruit {
+  /*color:green;*/
+}
+
+.diableros-fatigue {
+  margin-left:0px;
+}
+
+/* CHATMESSAGES */
+.message-content .diableros-libelle {
+  text-align:center;
+  text-decoration:underline;
+  font-weight:bold;
+  font-family:var(--font-h4);
+  font-size:var(--font-h4-size);
+  padding:0.5em;
+}
+
+/* DES AFFICHES */
+
+.diableros-bonus-carac {
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.diableros-dice {
+  width:25px;
+  height:25px;
+  line-height:25px;
+  text-align:center;
+  border-radius:4px;
+  font-size:1.1em;
+  font-weight:bold;
+  display:inline-block;
+  margin-right:6px;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.2);
+  background:#ffffff;
+  color:#000000;
+  border:1px solid #666;
+}
+
+/* JETS */
+.message-content .diableros-titre {
+  padding:5px;
+  font-size:1.1em;
+  text-align:center;
+  font-weight:bold;
+  border-radius:10px;
+  border:1px solid #666;
+  margin-bottom: 0.5em;
+}
+
+/* RESULTATS */
+.message-content .diableros-result {
+  font-weight:bold;
+  font-size:var(--font-h5-size);
+  text-align:left;
+  padding:2px;
+  border:solid 1px black;
+  background-color:white !important;
+}
+.message-content .diableros-success {
+  color:var(--color-level-success);
+  border:solid 1px var(--color-level-success-border);
+  font-weight:bold;
+  text-align:left;
+  padding:2px;
+  background-color:white !important;
+}
+/**/
+.message-content .diableros-success th div::before, .message-content .diableros-success th div::after {
+  font:var(--fa-font-solid);
+  content:'\f00c';
+  padding:0.5em;
+}
+/**/
+.message-content .diableros-fail {
+  color:var(--color-level-error);
+  border:solid 1px var(--color-level-error-border);
+  font-weight:bold;
+  text-align:left;
+  padding:2px;
+  background-color:white !important;
+}
+/**/
+.message-content .diableros-fail th div::before, .message-content .diableros-fail th div::after {
+  font:var(--fa-font-solid);
+  content:'\21';
+  padding:0.5em;
+}
+/**/

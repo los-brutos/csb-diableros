@@ -1,0 +1,124 @@
+{
+  "folder": null,
+  "name": "Maravillas",
+  "type": "equippableItem",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "colSpan": 1,
+          "rowSpan": 1,
+          "cssClass": "",
+          "role": 0,
+          "editRole": 0,
+          "permission": 0,
+          "tooltip": "",
+          "visibilityFormula": "",
+          "editableFormula": "",
+          "escapeHTML": false,
+          "type": "panel",
+          "contents": [
+            {
+              "key": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "label",
+              "size": "full-size",
+              "icon": "",
+              "value": "Description",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "",
+              "altRollMessage": "",
+              "rollMessageToChat": true,
+              "altRollMessageToChat": true,
+              "style": "bold"
+            },
+            {
+              "key": "description",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "textArea",
+              "size": "full-size",
+              "label": "",
+              "defaultValue": "",
+              "style": "sheet"
+            }
+          ],
+          "flow": "vertical",
+          "align": "left",
+          "verticalAlign": "top",
+          "collapsible": false,
+          "defaultCollapsed": false,
+          "title": "",
+          "titleStyle": "default"
+        }
+      ],
+      "key": "custom_body",
+      "type": "panel"
+    },
+    "display": {
+      "width": 600,
+      "height": 350,
+      "fix_size": false,
+      "pp_width": 64,
+      "pp_height": 64
+    },
+    "header": {
+      "contents": [],
+      "key": "custom_header",
+      "type": "panel"
+    },
+    "hidden": [],
+    "modifiers": [],
+    "props": {
+      "description": "<p>Vous êtes un inventeur de génie. </p><p>Véritable couteau suisse mexicain, il vous suffit d’un canif et d’un bout de corde pour créer des gadgets extraordinaires, vous permettant de lutter contre les dangers surnaturels qui vous entourent.</p><p>Votre créativité et vos connaissances techniques font de vous un allié de choix dans la lutte contre les monstres.</p>"
+    },
+    "unique": true,
+    "templateSystemUniqueVersion": 3349233092,
+    "uniqueId": "I2K1QwI8dOACjbhN",
+    "template": "HZFtVHte7plL0N9A"
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "5.2.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "custom-system-builder",
+    "systemVersion": "5.2.1",
+    "createdTime": 1779055211473,
+    "modifiedTime": 1779055211473,
+    "lastModifiedBy": "rDBRbmnRaHT1kPmL"
+  },
+  "_id": "I2K1QwI8dOACjbhN",
+  "ownership": {
+    "default": 0,
+    "rDBRbmnRaHT1kPmL": 3
+  },
+  "sort": 0,
+  "_key": "!items!I2K1QwI8dOACjbhN"
+}

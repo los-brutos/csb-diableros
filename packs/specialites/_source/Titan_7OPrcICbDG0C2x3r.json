@@ -1,0 +1,124 @@
+{
+  "folder": null,
+  "name": "Titan",
+  "type": "equippableItem",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "body": {
+      "contents": [
+        {
+          "key": "",
+          "colSpan": 1,
+          "rowSpan": 1,
+          "cssClass": "",
+          "role": 0,
+          "editRole": 0,
+          "permission": 0,
+          "tooltip": "",
+          "visibilityFormula": "",
+          "editableFormula": "",
+          "escapeHTML": false,
+          "type": "panel",
+          "contents": [
+            {
+              "key": "",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "label",
+              "size": "full-size",
+              "icon": "",
+              "value": "Description",
+              "prefix": "",
+              "suffix": "",
+              "rollMessage": "",
+              "altRollMessage": "",
+              "rollMessageToChat": true,
+              "altRollMessageToChat": true,
+              "style": "bold"
+            },
+            {
+              "key": "description",
+              "colSpan": 1,
+              "rowSpan": 1,
+              "cssClass": "",
+              "role": 0,
+              "editRole": 0,
+              "permission": 0,
+              "tooltip": "",
+              "visibilityFormula": "",
+              "editableFormula": "",
+              "escapeHTML": false,
+              "type": "textArea",
+              "size": "full-size",
+              "label": "",
+              "defaultValue": "",
+              "style": "sheet"
+            }
+          ],
+          "flow": "vertical",
+          "align": "left",
+          "verticalAlign": "top",
+          "collapsible": false,
+          "defaultCollapsed": false,
+          "title": "",
+          "titleStyle": "default"
+        }
+      ],
+      "key": "custom_body",
+      "type": "panel"
+    },
+    "display": {
+      "width": 600,
+      "height": 350,
+      "fix_size": false,
+      "pp_width": 64,
+      "pp_height": 64
+    },
+    "header": {
+      "contents": [],
+      "key": "custom_header",
+      "type": "panel"
+    },
+    "hidden": [],
+    "modifiers": [],
+    "props": {
+      "description": "<p>Vous êtes une véritable force de la nature. </p><p>Que vous souleviez de la fonte en salle de sport ou bien que votre entraînement soit à base de voitures soulevées à mains nues, votre musculature puissante est votre meilleure arme.</p>"
+    },
+    "unique": true,
+    "templateSystemUniqueVersion": 3349233092,
+    "uniqueId": "7OPrcICbDG0C2x3r",
+    "template": "HZFtVHte7plL0N9A"
+  },
+  "effects": [],
+  "flags": {
+    "custom-system-builder": {
+      "version": "5.2.1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "custom-system-builder",
+    "systemVersion": "5.2.1",
+    "createdTime": 1779055211473,
+    "modifiedTime": 1779055211473,
+    "lastModifiedBy": "rDBRbmnRaHT1kPmL"
+  },
+  "_id": "7OPrcICbDG0C2x3r",
+  "ownership": {
+    "default": 0,
+    "rDBRbmnRaHT1kPmL": 3
+  },
+  "sort": 0,
+  "_key": "!items!7OPrcICbDG0C2x3r"
+}

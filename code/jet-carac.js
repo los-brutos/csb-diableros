@@ -10,9 +10,6 @@ ${#d2:= [1d6]}$
 ${#d3:= [1d6]}$
 
 <table>
-  <colgroup>
-    <col
-  </colgroup>
   <tbody>
     <tr>
       <th><div class="diableros-titre">${!libelle}$</div></th>
